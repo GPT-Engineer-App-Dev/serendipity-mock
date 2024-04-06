@@ -1,11 +1,11 @@
 import { Heading, VStack } from "@chakra-ui/react";
-import Board from "../components/Board";
+import Game from "../components/Game";
 
 const Index = () => {
   return (
     <VStack spacing={8}>
       <Heading>Othello Game</Heading>
-      <Board />
+      <Game />
     </VStack>
   );
 };
